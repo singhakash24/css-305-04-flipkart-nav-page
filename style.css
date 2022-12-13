@@ -1,0 +1,229 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    /* border: 2px solid red; */
+    margin:10px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.main{
+    /* border:2px solid black; */
+    width:110vw;
+    height:23vh;
+}
+
+/* Parent class css */
+
+.parent1{
+    /* border:2px solid blue; */
+    background-color: blue;
+    width: 100%;
+    height: 35%;
+    display: flex;
+    flex-direction: row;
+    justify-content:right;
+    align-items: center;
+}
+
+.child{
+    /* border: 2px solid green; */
+    width:12%;
+    height: 75%;
+    display: flex;
+    justify-content: right;
+    align-items:center;
+}
+
+
+.logo{
+    /* border: 2px solid blue; */
+    height: 95%;
+    width:10%;
+    margin-right: 42px;
+    display: flex;
+       flex-direction: column;
+   }
+.logo-img{
+    /* border: 2px solid brown; */
+    height: 55%;
+    width: 99%;
+    }
+    .logo-img img{
+        height: 100%;
+        width: 100%;
+    }
+    .logo-link{
+     /* border: 2px solid brown; */
+     height: 45%;
+     width: 99%;
+    }
+    .logo-link a{
+    position: absolute;
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    }
+    .logo-link img{
+        position: relative;
+        height: 18px;
+        width: 18px;
+        margin-left: 94px;
+    }
+
+ .search{
+    width: 490px;
+    background-color: white;
+    border-radius: 5px;
+}
+.text1{
+    margin-right:150px;
+    color:rgba(0, 0, 0, 0.39);
+    font-size:medium;
+}
+.icon{
+   
+    height: 70%;
+    width: 12%;
+}
+
+.icon img{
+    
+    height: 90%;
+    width: 80%;
+}
+
+.login{
+    width: 10%;
+    height: 70%;
+}
+
+button{
+    width: 90%;
+    height: 70%;
+    font-size: large;
+    color: blue;
+    border-color: white;
+    background-color: white;
+}
+.text{
+    width: 10%;
+    height: 80%;
+}
+p{
+    font-size:larger;
+    text-align:center;
+    color: whitesmoke;
+}
+
+more{
+    /* border: 2px solid blue; */
+    height: 85%;
+    width:8%;
+    }
+    .more select{
+    height: 67%;
+    width: 42%;
+    color: white;
+    margin-right: 66px;
+    background-color: blue;
+    font-size: 18px;
+    text-align: center;
+    border: none;
+    outline: none;
+    }
+    .card{
+     /* border: 2px solid blue; */
+     height: 99%;
+     width:8%;
+     display: flex;
+     flex-direction: column;
+     align-items:flex-start;
+     justify-content: center;
+    }
+    .card img{
+       position: absolute;
+       height: 23px;
+       width: 23px;
+       margin-top: 10px;
+    }
+    .card select{
+        position: relative;
+        height: 40px;
+        width: 70px;
+        font-size: 18px;
+        text-align: center;
+        margin-left: 30px;
+        color: white;
+        background-color: blue;
+    border: none;
+    outline: none;
+    }    
+
+
+
+
+
+/* Second Block */
+.parent2{
+    /* border:2px solid blue; */
+    width: 100%;
+    height: 65%;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+
+}
+.child2{
+    /* border: 2px solid gray; */
+    width: 10%;
+    height: 90%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.img{
+    /* border: 2px solid yellow; */
+   width: 70%;
+   height: 60%;
+}
+
+.logo{
+    /* border: 2px solid blue; */
+    height: 95%;
+    width:10%;
+    display: flex;
+       flex-direction: column;
+   }
+.logo-img{
+    /* border: 2px solid brown; */
+    height: 55%;
+    width: 99%;
+    }
+    .logo-img img{
+        height: 100%;
+        width: 100%;
+    }
+    .logo-link{
+     /* border: 2px solid brown; */
+     height: 45%;
+     width: 99%;
+    }
+    .logo-link a{
+    position: absolute;
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    }
+    .logo-link img{
+        position: relative;
+        height: 18px;
+        width: 18px;
+        margin-left: 94px;
+    }
